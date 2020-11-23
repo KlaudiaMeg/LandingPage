@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Beauty Website</title>
+  </head>
+  <body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="main-nav">
+        <img src="img/logo.png" alt="Logo" class="logo" /></li>
+        <ul class="main-menu">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">Face</a></li>
+          <li><a href="#">Body</a></li>
+        </ul>
+
+        <ul class="right-menu">
+          <li>
+            <a href="#">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Showcase -->
+    <header class="showcase">
+      <h1>Beauty Company</h1>
+      <p>Discover the secrets of our cosmetics...</p>
+      <a href="#" class="btn">
+        View more
+        <i class="fas fa-chevron-down fa-2x"></i>
+      </a>
+    </header>
+
+    <!-- Products -->
+    <div class="container">
+      <div class="top">
+        <h2>Top products</h2>
+        <a class="button1" href="#">SHOP ALL</a>
+      </div>
+
+      <section class="products">
+        <div>
+          <img src="img/card1.jpg" alt="card1" />
+          <h3>Olivia Balm</h3>
+          <p>
+            Lip balm with olive oil and honey, utra moisturizing
+          </p>
+          <a class="button2" href="#">$9.99</a>
+        </div>
+        <div>
+          <img src="img/card2.jpg" alt="card2" />
+          <h3>Nude Colors</h3>
+          <p>
+            Eyeshadow pallete for everyday makeup
+          </p>
+          <a class="button2" href="#">
+            $59.99
+          </a>
+        </div>
+        <div>
+          <img src="img/card3.jpg" alt="card3" />
+          <h3>Caroline collection</h3>
+          <p>
+            Set of 10 makeup bruches, natural
+          </p>
+          <a class="button2" href="#">
+            $99.99
+          </a>
+        </div>
+      </section>
+
+      <!-- Post -->
+
+      <section class="post">
+          <div class="content">
+              <div class="picture">
+            </div>
+            <div class="info">
+                <h2>Perfect set for summer holiday</h2>
+                <h3>Get ready for next trip with our new summer collection!</h3>
+                <p>Summer is full of wonderful things — but melting makeup, smeared eyeliner, and super-sticky lipstick are not among them. We asked top makeup artists and our very own experts from the Good Housekeeping Institute's Beauty Lab to spill their best tips for keeping makeup looking fresh and pretty — even when the weather is working against you.</p>
+                <div class="buttons">
+                    <a href="#">SHOP</a>
+                    <a href="#">READ MORE</a>
+                </div>
+            </div>
+          </div>
+      </section>
+    </div>
+
+<!-- Bottom -->
+<div class="bottom-photo">
+</div>
+
+<!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer-inner">
+        <div class="link">
+            
+            <ul class="pages">
+                <li><h4>Customer Care</h4></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Delivery & Returns</a></li>
+                <li><a href="#">Track Your Order</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+            </ul>
+        </div>
+        <div class="subscribe">
+            <h4>Subscribe to our newsletter</h4>
+            <form action=""></form>
+            <input class="email" type="text" placeholder="Email Address"> 
+            <button class="btn2" type="submit">Submit</button>
+                <label for="accept">
+                    <input type="checkbox" name="accept"> <span>   I accept the terms & conditions of this subscriptions</span>
+                </label>
+            </form>
+        </div>
+        <div class="contact">
+            <ul class="date">
+                <li><h4>Contact</h4></li>
+                <li>555 555 555</li>
+                <li>contact@gmail.com</li>
+                <li>FOLLOW US</li>
+                <div class="follow">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </div>
+            </div>
+            </ul>
+                    
+                 
+            
+        </div>
+</div>
+</footer>
+<script>
+    document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+ </script>
+  </body>
+</html>
